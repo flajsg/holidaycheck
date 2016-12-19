@@ -3,11 +3,11 @@ This is a Laravel 4.2 wrapper for PHP parser for HolidayCheck XML api.
 
 ## Dependencies
 
-This wrapper uses ``ors/holidaycheck-api`` for parsing data.
+This wrapper uses ``ors/holidaycheck-api:1.0.*`` for parsing data.
 
 ## Installation
 
-To install the package you must run ``composer require ors/holidaycheck:dev-master`` and set service provider and alias in your app.php file.
+To install the package you must run ``composer require ors/holidaycheck`` and set service provider and alias in your app.php file.
 
 To include service provider add this line in 'providers' array:
 
@@ -21,7 +21,7 @@ And make sure you've added aliases in 'aliases' array:
 
 You will need some custom configurations so make sure you have published config files:
 
-	php artisan config:publish ors/holidaycheck:dev-master
+	php artisan config:publish ors/holidaycheck
 
 
 ## Basic Usage
